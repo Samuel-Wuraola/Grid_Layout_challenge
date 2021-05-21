@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+section{
+    display: grid;
+    grid-template-rows: 75% 25%;
+}
+.top_grid{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+/* First Grid on top */
+.grid_1{
+    background-color: red;
+
+}
+/* Orange grid on the right */
+.position{
+    background-color: orange;
+    height: calc(100%/3);
+}
+/* Right Grid at bottom  */
+.bottom_grid{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.bottom_grid .left{
+    background-color: yellow;
+}
+.bottom_grid .right{
+    background-color: blue;
+}
+
+p{
+    border: solid 3pt;
+    text-align: center;
+    padding-top: 50px;
+    font: 40px bolder;
+}
